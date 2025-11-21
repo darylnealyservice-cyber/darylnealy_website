@@ -1,132 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daryl Nealy | Professional Services</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            color: #222;
-        }
-
-        header {
-            background: #111;
-            padding: 40px 20px;
-            text-align: center;
-            color: white;
-        }
-
-        header h1 {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: 20px;
-            opacity: 0.8;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1100px;
-            margin: auto;
-            padding: 40px 0;
-        }
-
-        .section {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            margin-bottom: 30px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .section h2 {
-            margin-top: 0;
-            color: #111;
-        }
-
-        .services ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .services li {
-            padding: 12px 0;
-            border-bottom: 1px solid #ddd;
-        }
-
-        .cta-btn {
-            display: inline-block;
-            padding: 15px 25px;
-            background: #111;
-            color: white;
-            text-decoration: none;
-            font-size: 18px;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-
-        .cta-btn:hover {
-            background: #333;
-        }
-
-        footer {
-            text-align: center;
-            padding: 40px;
-            background: #111;
-            color: white;
-            margin-top: 40px;
-        }
-    </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Daryl Nealy Solutions — Digital Marketing & Business Growth</title>
+  <meta name="description" content="Daryl Nealy Solutions — Digital Marketing, Social Media, Video Promotion, and Business Growth services. Fast, professional results for freelancers and small businesses." />
+  <style>
+    :root{
+      --bg:#071021;
+      --card:#0e1622;
+      --accent:#0aefff;
+      --muted:#9aa8b6;
+      --container:1100px;
+      --radius:14px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#061225 0%, #071021 100%);color:#e6f0f6}
+    .container{max-width:var(--container);margin:0 auto;padding:28px}
+    header{padding:36px 0;text-align:center}
+    .brand h1{margin:0;font-size:34px;letter-spacing:0.6px}
+    .tag{color:var(--muted);margin-top:6px}
+    .hero{background:linear-gradient(180deg, rgba(10,239,255,0.06), rgba(255,255,255,0));padding:36px;border-radius:12px;margin-top:18px}
+    .hero h2{margin:0 0 12px;font-size:26px}
+    .hero p{color:var(--muted);margin:0 0 14px}
+    .btn{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:700;border:2px solid transparent;background:var(--accent);color:#041021}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+    .card h4{margin:0 0 8px}
+    .price{color:var(--accent);font-weight:800}
+    .services ul{list-style:none;padding:0;margin:8px 0;color:var(--muted)}
+    footer{padding:18px 0;text-align:center;color:var(--muted);margin-top:28px}
+    @media(max-width:720px){.hero h2{font-size:20px}.brand h1{font-size:26px}}
+  </style>
 </head>
-
 <body>
-
-<header>
-    <h1>Daryl Nealy</h1>
-    <p>Professional Services • Fiverr Freelancer • Digital Work & Business Solutions</p>
-    <a href="mailto:darylnealy.service@gmail.com" class="cta-btn">Hire Me</a>
-</header>
-
-<div class="container">
-
-    <div class="section">
-        <h2>About Me</h2>
-        <p>
-            I provide fast, reliable, professional services to help individuals and businesses get things done.
-            From digital work to organization, online setup, writing, business support, content, and more —
-            I deliver quality every time. Let’s build and grow together.
-        </p>
+  <header class="container">
+    <div class="brand">
+      <h1>Daryl Nealy Solutions</h1>
+      <div class="tag">Digital Marketing • Social Media • Video Promotion • Business Growth</div>
     </div>
+  </header>
 
-    <div class="section services">
-        <h2>Services</h2>
-        <ul>
-            <li>✔ Website setup & online branding</li>
-            <li>✔ Resume building & professional documents</li>
-            <li>✔ Business planning & strategy</li>
-            <li>✔ Digital assistant services</li>
-            <li>✔ File creation (PDF, Word, etc.)</li>
-            <li>✔ Custom tasks — tell me what you need</li>
-        </ul>
-    </div>
+  <main class="container">
+    <section class="hero">
+      <h2>Professional digital services that get results — fast.</h2>
+      <p>Websites, resumes, business planning, social media strategy, and video promotion that convert visitors into customers. Clear pricing, fast delivery, and reliable support.</p>
+      <a class="btn" href="mailto:darylnealy.service@gmail.com">Hire Me – Email</a>
+      <a class="btn" style="margin-left:12px;background:transparent;border:2px solid var(--accent);color:var(--accent)" href="https://www.fiverr.com/" target="_blank" rel="noopener">View Fiverr Gigs</a>
+    </section>
 
-    <div class="section">
-        <h2>Contact</h2>
+    <section class="services" style="margin-top:20px">
+      <h3>Top Services</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Resume Writing & Application Packages</h4>
+          <p class="services"><ul><li>ATS-friendly resumes</li><li>Cover letters & LinkedIn summaries</li></ul></p>
+          <div class="price">$25 — Basic • $55 — Standard • $95 — Premium</div>
+        </div>
+
+        <div class="card">
+          <h4>Business Plans & Strategy</h4>
+          <p class="services"><ul><li>Startup plans, marketing outlines</li><li>Financial basics & roadmaps</li></ul></p>
+          <div class="price">$30 — Basic • $60 — Standard • $120 — Premium</div>
+        </div>
+
+        <div class="card">
+          <h4>Website Setup & Digital Assistant</h4>
+          <p class="services"><ul><li>GitHub Pages, simple landing pages</li><li>Account setup, file management</li></ul></p>
+          <div class="price">$20 — Basic • $50 — Standard • $100 — Premium</div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:26px">
+      <div class="card">
+        <h3>Portfolio & Samples</h3>
+        <p class="services">Samples available on request — resume PDF, 1-page website demo, and a business plan sample. Order a Standard or Premium package to receive full downloads and editable files.</p>
+      </div>
+    </section>
+
+    <section style="margin-top:20px">
+      <div class="card">
+        <h3>Contact</h3>
         <p>Email: <strong>darylnealy.service@gmail.com</strong></p>
         <p>Phone: <strong>850-567-8125</strong></p>
-        <a href="mailto:darylnealy.service@gmail.com" class="cta-btn">Send a Message</a>
-    </div>
+        <p style="color:var(--muted)">Prefer Fiverr? Add the Fiverr link to this site and clients will message you and place orders there.</p>
+      </div>
+    </section>
+  </main>
 
-</div>
-
-<footer>
-    © 2025 Daryl Nealy — Professional Services
-</footer>
-
+  <footer>
+    © 2025 Daryl Nealy Solutions — Digital Marketing & Business Growth
+  </footer>
 </body>
 </html>
