@@ -1,0 +1,84 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4ff; /* soft blue background */
+    color: #1a1a1a;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* ===== PROFILE IMAGE ===== */
+.profile-photo {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 25px auto;
+    border: 6px solid white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* ===== SECTIONS ===== */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+    border-left: 6px solid #3b82f6;
+    padding-left: 10px;
+}
+
+/* ===== CONTACT BUTTON ===== */
+.contact-btn {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: #2563eb;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #1e40af;
+    transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    color: #444;
+}
